@@ -80,7 +80,7 @@ function Home() {
           <div>
             <div>
               <img className="profile-img" src={author} alt="author..." />
-              <h6 className="text">POULTRY FOOD MIXING MACHINE</h6>
+              <h6 className="text">CHICKEN FEED MIXER AND MILL MACHINE</h6>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ function Home() {
           <div>
             <div>
               <img className="profile-img" src={author1} alt="author..." />
-              <h6 className="text">CHAFF CUTTER MACHINE</h6>
+              <h6 className="text">PULVERIZER MACHINE</h6>
             </div>
           </div>
         </div>
