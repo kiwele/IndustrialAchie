@@ -95,12 +95,13 @@ function Contact() {
                   className="form-control"
                   placeholder="Phone number"
                 /> */}
-                {/* <input
+                <input
                   type="file"
                   // label="phone"
+                  name = "my_file"
                   className="form-control"
                   // placeholder="Phone number"
-                /> */}
+                />
               </div>
               <div className="col-lg-6 col-xs-12">
                 <textarea
