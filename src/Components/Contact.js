@@ -20,7 +20,7 @@ function Contact() {
     e.preventDefault()
 
     // emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, form.current, process.env.YOUR_PUBLIC_KEY)
-    emailjs.sendForm('service_w30hx1p', 'template_k5ucupm', form.current, 'w7knmIn3jLI7G1MdK')
+    emailjs.sendForm('service_vzo9vab', 'template_e7j7frl', form.current, 'qKDi3bw3jvJiEgp8J')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
@@ -99,7 +99,7 @@ function Contact() {
                 />
               </div>
               <div className="col-lg-6 col-xs-12">
-                <textarea
+              <textarea
                   type="text"
                   // label="description"
                   className="form-control"
