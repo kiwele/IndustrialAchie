@@ -62,7 +62,9 @@ function Contact() {
           {/* <span className="success-message">{successMessage}</span> */}
         </div>
         <div className="container">
-          <div class="form-floating mb-3 g-10">
+
+        <form ref={form} onSubmit={sendEmail}>
+          <div class="form-floating mb-3 g-5">
             {/* <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" />
@@ -73,7 +75,7 @@ function Contact() {
       <input type="submit" value="Send" />
        </form> */}
            
-           <form ref={form} onSubmit={sendEmail}>
+          
             <div className="row mx-5">
               <div className="col-lg-6 col-xm-12">
                 <input
@@ -116,8 +118,11 @@ function Contact() {
                 </button>
               </div>
             </div>
-            </form>
+            
           </div>
+          </form>
+
+
         </div>
       </div>
       <Map location={location} zoomLevel={18} />

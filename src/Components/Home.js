@@ -88,7 +88,7 @@ function Home() {
           <div>
             <div>
               <img className="profile-img" src={author1} alt="author..." />
-              <h6 className="text">PULVERIZER MACHINE</h6>
+              <h6 className="text">COFFEE HULLER MACHINE</h6>
             </div>
           </div>
         </div>

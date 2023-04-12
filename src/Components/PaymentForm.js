@@ -66,6 +66,7 @@ const PaymentForm = ({
   return (
     <>
       <Review checkoutToken={checkoutToken} />
+     
       <Divider />
       <Typography variant="h6" gutterBottom style={{ margin: "20px 0" }}>
         Payment method
@@ -86,7 +87,8 @@ const PaymentForm = ({
                   disabled={!stripe}
                   color="primary"
                 >
-                  Pay {checkoutToken.live.subtotal.formatted_with_symbol}
+                  Pay 
+                  {checkoutToken.subtotal.formatted_with_symbol}
                 </Button>
               </div>
             </form>
